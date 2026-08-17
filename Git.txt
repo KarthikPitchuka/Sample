@@ -1,0 +1,21 @@
+git init
+git add . (all files)
+git add index.html  (specific)
+git commit -m "message"
+git branch -M main (changing the name master to main)
+git remote add origin https://github.com/KarthikPitchuka/Practice.git
+git push -u origin main (pushing)
+Note: ---after push we need to enter the username and the token : https://github.com/settings/personal-access-tokens
+
+Branching:
+git checkout -b branchname
+git checkout branchname (return to the required branch)
+git branch -d branchname (deleting the branch)
+git branch (displays all the current branches)
+git diff main subbranch name (to find the differnece btw 2 branches)
+git merge branchname (to do this we must checkout into the main)
+
+
+Clone and Pulling:
+git clone https://github.com/KarthikPitchuka/Practice.git (open the required folder in terminal)
+
